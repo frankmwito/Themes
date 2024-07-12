@@ -1,10 +1,14 @@
 package com.example.jetpackcomposethemes.ui.theme
 
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.material3.Shapes
+import androidx.compose.ui.unit.dp
+import androidx.compose.material3.Shapes as MaterialShapes
 
 // Set of Material typography styles to start with
 val Typography = Typography(
@@ -31,4 +35,9 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     )
     */
+)
+val Shapes: MaterialShapes = MaterialShapes(
+    small = RoundedCornerShape(4.dp),
+    medium = RoundedCornerShape(6.dp),
+    large = RoundedCornerShape(8.dp)
 )
