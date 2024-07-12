@@ -2,7 +2,6 @@ package com.example.jetpackcomposethemes.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-//Light theme colors
 // Light theme colors
 val LightPrimary = Color(0xFF6200EE)
 val OnLightPrimary = Color(0xFFFFFFFF)

@@ -1,6 +1,5 @@
 package com.example.jetpackcomposethemes.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -12,25 +11,58 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = LightPrimary,
+    onPrimary = OnLightPrimary,
+    primaryContainer = LightPrimaryContainer,
+    onPrimaryContainer = OnLightPrimaryContainer,
+    secondary = LightSecondary,
+    onSecondary = OnLightSecondary,
+    secondaryContainer = LightSecondaryContainer,
+    onSecondaryContainer = OnLightSecondaryContainer,
+    tertiary = LightTertiary,
+    onTertiary = OnLightTertiary,
+    tertiaryContainer = LightTertiaryContainer,
+    onTertiaryContainer = OnLightTertiaryContainer,
+    error = LightError,
+    onError = OnLightError,
+    errorContainer = LightErrorContainer,
+    onErrorContainer = OnLightErrorContainer,
+    background = LightBackground,
+    onBackground = OnLightBackground,
+    surface = LightSurface,
+    onSurface = OnLightSurface,
+    surfaceVariant = LightSurfaceContainer,
+    onSurfaceVariant = OnLightSurfaceContainer,
+    outline = LightOutline,
+    outlineVariant = OnLightOutline,
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = DarkPrimary,
+    onPrimary = OnDarkPrimary,
+    primaryContainer = DarkPrimaryContainer,
+    onPrimaryContainer = OnDarkPrimaryContainer,
+    secondary = DarkSecondary,
+    onSecondary = OnDarkSecondary,
+    secondaryContainer = DarkSecondaryContainer,
+    onSecondaryContainer = OnDarkSecondaryContainer ,
+    tertiary = DarkTertiary,
+    onTertiary = OnDarkTertiary,
+    tertiaryContainer = DarkTertiaryContainer,
+    onTertiaryContainer = OnDarkTertiaryContainer ,
+    error = DarkError,
+    onError = OnDarkError ,
+    errorContainer = DarkErrorContainer,
+    onErrorContainer = OnDarkErrorContainer,
+    background = DarkBackground,
+    onBackground = OnDarkBackground,
+    surface = DarkSurface,
+    onSurface = OnDarkSurface,
+    surfaceVariant = DarkSurfaceContainer,
+    onSurfaceVariant = OnDarkSurfaceContainer,
+    outline = DarkOutline,
+    outlineVariant = OnDarkOutline,
 
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
 )
 
 @Composable
